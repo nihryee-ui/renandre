@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color:#90c8f0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 25px;
+    
+}
+nav ul li {
+   cursor: pointer; 
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: cyan;
+    border: none;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+.body{
+    background: linear-gradient(to right,white,#39b3eb);
+    height: 450px;
+    width: 100%;
+}
+
+.gambar{
+    width: px;
+    height: 350px;
+    padding-right: 200px;
+    padding-bottom: 400px;
+}
+div.body p{
+    margin-top: -680px;
+    margin-left: 700px;
+}
+
+.services {
+  background: #fff;
+  color: #111;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  color: #0e1a13;
+}
+
+.services p {
+  margin: 15px 0 30px;
+  color: #333;
+}
+
+.service-list {
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.about div {
+  max-width: 400px;
+  text-align: left;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0e1a13;
+}
+
+.credit{
+ background-color: #538cbd;
+ height: 600px;
+}
+
+.kartu{
+    width: px;
+    height: 500px;
+    padding-right: 200px;
+    padding-bottom: 400px;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -700px;
+  margin-left: 500px;
+}
+
+.dana-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px auto;
+    width: 85%;
+    background: #f4f9ff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    border-left: 6px solid #008CFF;
+}
+
+
+.dana-left {
+    width: 45%;
+    text-align: center;
+}
+
+.dana-title {
+    color: #008CFF;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dana-image {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.dana-right {
+    width: 45%;
+}
+
+.dana-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d7e8ff;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.dana-input:focus {
+    border-color: #008CFF;
+    box-shadow: 0px 0px 6px rgba(0,140,255,0.3);
+}
+
+
+.dana-btn {
+    width: 100%;
+    background: #008CFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.dana-btn:hover {
+    background: #0072d1;
+    transform: scale(1.03);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
